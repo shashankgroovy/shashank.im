@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Iosevka';
+    src: url("./assets/iosevka-regular.ttf");
+}
+
+body {
+    background: #0A0E14;
+    color: #C7C7C7;
+    margin: 1em;
+    font-family: 'Iosevka';
+    font-size: 1.2em;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+a {
+    color: #1CDC9A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+::selection {
+    color: #01060E;
+    background: #1CDC9A;
+}
+
+p.contact {
+    margin-top: 2.5em;
+}
