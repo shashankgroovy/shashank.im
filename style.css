@@ -3,12 +3,15 @@
     src: url("./assets/iosevka-regular.ttf");
 }
 
-body {
+html {
     background: #0A0E14;
     color: #C7C7C7;
-    margin: 1em;
     font-family: 'Iosevka';
     font-size: 1.2em;
+}
+
+body {
+    padding: 1em;
 }
 
 h1 {
